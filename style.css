@@ -1,0 +1,20 @@
+charset="UTF-8"
+
+p {
+    background-color: blue;
+    color: #ffffff;
+    font-size: 24px;
+    width: 350px;
+}
+
+button {
+    background-color: orange;
+}
+
+table {
+    border: 1px solid gray;
+}
+
+td {
+    border: 1px solid gray;
+}
