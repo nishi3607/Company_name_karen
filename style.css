@@ -18,3 +18,19 @@ table {
 td {
     border: 1px solid gray;
 }
+/**
+ * レイアウト用ボックスを囲む
+ */
+.container {
+    width: 960px;       /* サイトの基本となる横幅 */
+    margin-right: auto; /* 右側の余白を自動で調整 */
+    margin-left: auto;  /* 左側の余白を自動で調整 */
+}
+
+/* ボックスの構造を分かりやすくするため */
+.layout {
+    background-color: #dedede;
+    padding: 10px;
+    border: 1px solid #949494;
+    margin-bottom: 10px;
+}
