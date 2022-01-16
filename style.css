@@ -50,3 +50,38 @@ td {
     display: block;
     clear: both;
 }
+/*ヘッダー*/
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.company-info {
+    float: left;
+    width: 70%;
+}
+.contact-info {
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+header p span {
+    font-size: 20px;
+    font-weight: bold;
+}
+/*ナビゲーション*/
+nav ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+nav {
+    border-top: 2px solid #8b4513;
+    border-bottom: 1px solid #ccc;
+}
+nav ul li a:hover {
+    color: #fff;
+    background-color: #ffd700;
+}
+nav ul li a {
+    display: block;
+}
