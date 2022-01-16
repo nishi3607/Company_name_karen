@@ -34,3 +34,19 @@ td {
     border: 1px solid #949494;
     margin-bottom: 10px;
 }
+
+/* メインコンテンツ */
+.main {
+    float: left;
+    width: 630px;
+}
+/* サイドバー */
+.sidebar {
+    float: right;
+    width: 250px;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
